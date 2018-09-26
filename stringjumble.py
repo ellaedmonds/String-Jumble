@@ -30,4 +30,10 @@ print ('You entered "'+a+'". Now jumble it: ')
 
 print(a[::-1])
 
-for (a[' ']) 
+for c in a:
+    if c == " ":
+        c = 1
+    word = word+c
+
+print(word)
+
