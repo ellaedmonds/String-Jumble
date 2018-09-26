@@ -32,8 +32,8 @@ print(a[::-1])
 
 for c in a:
     if c == " ":
-        c = 1
-    word = word+c
+        words = a.count(' ')
+    word = word + c
 
 print(word)
 
