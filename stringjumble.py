@@ -34,7 +34,6 @@ words = []
 word = ""
 for c in a:
     if c == " ":
-        print(word)
         words.append(word)
         word=""
     else:
@@ -42,5 +41,9 @@ for c in a:
 
 words.append(word)
 
-print(words[::-1])
+#print(words[::-1])
+
+for word in words[::-1]:
+    print(word, end=" ")
+
 
