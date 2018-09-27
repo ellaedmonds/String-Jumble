@@ -46,4 +46,10 @@ words.append(word)
 for word in words[::-1]:
     print(word, end=" ")
 
-
+'''for word in words[::-1]:
+    print(reverse.word, end=" ")'''
+    
+    
+    
+    
+    
