@@ -30,10 +30,17 @@ print ('You entered "'+a+'". Now jumble it: ')
 
 print(a[::-1])
 
+words = []
+word = ""
 for c in a:
     if c == " ":
-        words = a.count(' ')
-    word = word + c
+        print(word)
+        words.append(word)
+        word=""
+    else:
+        word = word + c
 
-print(word)
+words.append(word)
+
+print(words[::-1])
 
