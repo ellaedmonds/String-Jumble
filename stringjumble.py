@@ -48,7 +48,7 @@ for word in words[::-1]:
 
 print()
 
-for word in words[::-1]:
+for word in words:
     print(word[::-1], end=" ")
     
     
